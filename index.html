@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    
+</head>
+<body>
+    <header>
+    <nav>
+        <b><a href="#" class="logo">My Page</a></b>
+        <a href="#" class="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#Photo">Photos</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>Hi, my name is Pazylov Ibrohim, I was born in Russia, in the city of Irkutsk. I am 19 years old studying at the University of Ala-too in the 2nd year as a programmer. In general, I do sports in my life, I went to martial arts. 
+                At the moment I want to become a good programmer and businessman.</p>
+        </section>
+        <section id="resume">
+            <h2>Resume</h2>
+            <ul>
+                <li>What programming languages do I know: Python, C++, C#, I'm currently studying Java, Html, Kotlin
+                    Skills in life: Physically prepared, there are awards for martial arts, I swim at a good level, 
+                    I play football at a good level</li>
+                <li>Hobbies: Mostly I play games, play football, poker</li>
+                <li>Goals for the future: I want to graduate from university, 
+                    get a diploma, get a good job, buy an apartment, a car and travel</li>
+                
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Pazylov Ibrohim</p>
+    </footer>
+      <hr/>
+      <section id="favorite">
+        <h2>My favorite celebrities</h2>
+        <ul> 
+                <li>Elon musk, a smart and funny businessman at the same time, I like his ideas</li>
+                <li>Robert Kiyosaki, thanks to his thinking, you can achieve a lot</li>
+                <li>M0nesy, a popular Russian esports player in the game counter strike, at the age of 16, he achieved a lot and even got on the Forbes list</li></li>
+           
+              <p>
+                <b>My favorite song to which I relax and do most of the work.</b>
+              </p>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/1u8harHg4L4?si=2-zUjEmSY6KudnWT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </ul>
+      </section>
+      <hr/>
+      <section id="works">
+        <h2>Works</h2>
+        <div class="work">
+          <img src="images/work1.jpg" alt="Work 1" />
+        </div>
+        <div class="work">
+          <img src="images/work2.jpg" alt="Work 2">
+        </div>
+        <div class="work">
+            <img src="images/work3.jpg" alt="Work 2">
+          </div>
+      </section>
+      <hr/>
+      <section id="Photo">
+        <h2>my Gallery</h2>
+        <div class="Photo">
+          <img src="images/12.jpg" alt="Photo 1" class="item1">
+          <img src="images/13.jpg" alt="Photo 2" class="item2">
+          <img src="images/14.jpg" alt="Photo 3" class="item3">
+          <img src="images/15.jpg" alt="Photo 4" class="item4">
+        </div>
+      </section>
+      <hr/>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>My Contacts</h2>
+            <ul>
+              <li>Phone: <a href="tel:"> 0 (553) 747 598</a></li>
+              <li>Whatsapp: <a href="whatsapp:">+7 914 871 45 79 </a></li>
+              <li>Instagram: <a href="https://instagram.com/pzlv.exe"> @pzlv.exe</a> </li>
+              <li>Email: <a href="mail">pazylov.ibrohim@alatoo.edu.kg</a></li>
+            </ul>
+          </section>
+    </footer>
+  </body>
+  <script>
+    $('.nav-toggle').on('click', function(){
+      $('#menu').toggleClass('active');
+    });
+    </script>
+</html>
